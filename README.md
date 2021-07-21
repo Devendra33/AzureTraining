@@ -104,13 +104,13 @@ This file contains the parameters that will be used to create the resource. We n
     "contentVersion": "1.0.0.0",
     "parameters": {
       "serverName": {
-        "value": "sqltestserverv1"
+        "value": "Sqltest1729"
       },
       "administratorLogin": {
-        "value": "sqladmin"
+        "value": "Adminuser"
       },
       "administratorLoginPassword": {
-        "value": "Diksha4214#"
+        "value": "Password@123"
       }
     }
   }
@@ -122,7 +122,7 @@ For the deployment of this template following command should run on azure CLI. I
 
 > `azuredeploy.sh`
 ```Bash
-RGName="rg-practice-dev-in-006"
+RGName="rg-practice-dev-in-011"
 TemplateFilePath="./azuredeploy.json"
 ParameterFilePath="./azuredeploy.parameters.json"
  

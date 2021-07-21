@@ -1,4 +1,4 @@
-RGName="rg-practice-dev-in-005"
+RGName="rg-practice-dev-in-011"
 TemplateFilePath="./azuredeploy.json"
 ParameterFilePath="./azuredeploy.parameters.json"
  
